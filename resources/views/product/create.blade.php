@@ -10,23 +10,23 @@
                 @csrf
                 <div class="mb-3">
                     <label for="name" class="form-label">Nama Product</label>
-                    <input type="text" class="form-control" id="name" name="name">
+                    <input type="text" class="form-control" id="name" name="name" required>
                 </div>
                 <div class="mb-3">
                     <label for="price" class="form-label">Harga</label>
-                    <input type="text" class="form-control" id="price" name="price">
+                    <input type="text" class="form-control" id="price" name="price" required>
                 </div>
                 <div class="mb-3">
                     <label for="description" class="form-label">deskripsi</label>
-                    <input type="text" class="form-control" id="description" name="description">
+                    <input type="text" class="form-control" id="description" name="description" required>
                 </div>
                 <div class="mb-3">
                     <label for="stock" class="form-label">stock</label>
-                    <input type="text" class="form-control" id="stock" name="stock">
+                    <input type="text" class="form-control" id="stock" name="stock" required>
                 </div>
                 <div class="mb-3">
                     <label for="photo" class="form-label">Default file input example</label>
-                    <input class="form-control" type="file" id="photo" name="photo">
+                    <input class="form-control" type="file" id="photo" name="photo" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Create</button>
             </form>

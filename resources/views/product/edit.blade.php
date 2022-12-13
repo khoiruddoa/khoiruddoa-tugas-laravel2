@@ -34,6 +34,7 @@
                     <div class="card-body">
                     </div>
                 </div>
+                <input type="hidden" name="hidden" value="{{ $product->photo }}">
                 <div class="mb-3">
                     <label for="photo" class="form-label">Default file input example</label>
                     <input class="form-control" type="file" id="photo" name="photo">
